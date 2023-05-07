@@ -1,0 +1,26 @@
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0;
+    
+  }
+  .first{
+    justify-content: space-around;
+    margin: 10px;
+    justify-content: space-between;
+    
+  }
+  .second{
+    justify-content: space-around;
+    margin: 10px;
+    justify-content: space-between;
+    
+  }
+.third{
+  justify-content: space-around;
+  margin: 10px;
+  justify-content: space-between;
+  
+}

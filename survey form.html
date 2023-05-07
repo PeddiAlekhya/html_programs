@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+        input {
+          height: 0.5;
+          width: 1.5;
+          border: 20px;
+          border-radius: 0.25px;
+          background-color: aquamarine;
+          border-color: black;
+          opacity: 1;
+          font-size: 18px;
+          padding-left: 100px;
+          font-weight: 200;
+        }
+        </style>
+        </head>
+    <body>
+<form action="assignment1.html" method="GET">
+    <h1>Generation Survey Form</h1>
+    <h3>Tell us something positive that happened to you through generation</h3>
+    <label for="Enter your name">Full Name :</label>
+    <input id="Enter your name" type="text" name="Enter your name" required>
+    <br>
+    <br>
+    <label for="Enter your e-mail">E-mail :</label>
+    <input id="Enter your e-mail" type="text" name="Enter your e-mail" required>
+    <br>
+    <br>
+    <label for="Enter your father name">Father Name</label>
+    <input id="Enter your father name" type="text" name="Enter your father name" required>
+    <br>
+    <br>
+    <label for="Enter your mother name">Mother Name</label>
+    <input id="Enter your mother name" type="text" name="Enter your mother name" required>
+    <br>
+    <br>
+    <span> Gender:</span> 
+<input id="male" type="radio" name="answer" value="male" required>  
+<label for="male">Male</label>
+<input id="female" type="radio" name="answer" value="female" required>  
+<label for="female">Female</label>
+<input id="other" type="radio" name="answer" value="other" required>  
+<label for="other">Other</label>  
+    <br>
+    <br>
+<label for="Enter mobile number">Mobile Number :</label>
+    <input id="Enter mobile number" type="text" name="Enter mobile number" required>
+    <br>
+    <br>
+    <label for="Enter a number between 1-10">On a scale of 1-10,how good was in generation ?</label>
+    <input id="Enter a number between 1-10" type="number" name="Enter a number between 1-10" required>
+    <br>
+    <br>
+    <label for="Enter">Mode of learning through generation</label>
+    <select name="Enter" id="Enter" required>
+        <option value="Online">Online</option>
+        <option value="Offline">Offline</option>
+        </select>
+        <br>
+        <br>
+        <label for="enter">What is your required time for learning ? <br> <br></label>
+           <input id="morning" type="radio" name="answer" value="morning" required>  
+           <label for="Morning">9am-12am</label>
+           <input id="afternoon" type="radio" name="answer" value="afternoon" required>  
+           <label for="Afternoon">1pm-4pm</label>
+           <input id="evening" type="radio" name="answer" value="evening" required>  
+           <label for="Evening">4pm-7pm</label>
+           <input id="evening" type="radio" name="answer" value="full time" required>  
+           <label for="full time">Full time</label> 
+           <br> 
+           <br>
+<span>What emotions did you experianced throughout the generation course? <br> (select all that apply) <br></span>
+          <br>
+          <input type="checkbox" name="Enter" id="Excited" value="Excited">
+          <label for="Excited">Excited</label>
+          <input type="checkbox" name="Enter" id="Humbled" value="Humbled">
+          <label for="Humbled">Humbled</label>
+          <input type="checkbox" name="Enter" id="Elated" value="Elated">
+          <label for="Elated">Elated</label>
+          <input type="checkbox" name="Enter" id="Loved" value="Loved">
+          <label for="Loved">Loved</label>
+          <input type="checkbox" name="Enter" id="Enthusiastic" value="Enthusiastic">
+          <label for="Enthusiastic">Enthuastic</label>
+          <br>
+          <br>
+          <section class="extra-info">
+            <label for="extra">Please describe your positive experiance in generation learning :</label>  
+             <br>
+             <textarea id="extra" name="extra" rows="3" cols="40" style="background-color: aquamarine;"></textarea>
+            </section>
+            <br>
+            <br>
+            <section class="submission">
+                <input type="submit" value="submit" style="background-color: aquamarine;">
+            </section>
+        </body>
+        </html>
